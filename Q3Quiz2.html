@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Q3QUIZ2</title>
+	<link rel="stylesheet" type="text/css" href="q3q2.css">
+</head>
+<style>
+
+</style>
+<audio controls autoplay loop hidden>
+	<source src="Eve MV.mp3">
+</audio>
+<!-- got the audio code from the youtuber Bro Code, and if the audio doesn't autoplay it's because of your (Privary & Security-Site Settings-Sound):3 -->
+<body>
+	<center>
+<h1 id="title">Eve Live Concert Tickets</h1>
+<hr>
+<details ontoggle="message()">
+<summary id="info">Personal Info</summary>
+<i id="show" style="color: white;">Please, fill out the items below.</i>
+<br>
+<form>
+	<div class="row">
+		<center>
+		<div class="col-md-8">
+		<label>Complete Name</label><br>	
+		<input type="text" id="infos" name="name" class="form-control" required>
+		</center>
+	</div>
+	<div class="row">
+		<center>
+		<div class="col-md-8">
+		<label>Email</label><br>
+		<input type="email" id="infos" name="email" class="form-control" required>
+		</center>
+	</div>
+</form>
+</details>
+<br>
+<details ontoggle="message()">
+<summary id="price">Ticket Price</summary>
+<i id="show" style="color: white;">Click the option "buy" to confirm your purchase with this price.</i>
+<br>
+<i id="show" style="color: white;">If the price is not to your liking click the option "No".</i>
+<br><br>
+<form>
+	<label>Ticket Price: $40</label>
+	<br>
+	<input type="radio" id="buy" name="buy" required>
+	<label for="buy">Buy</label>
+	<input type="radio" id="nobuy" name="buy" required>
+	<label for="buy">No</label> 
+</form>
+</details>
+<br>	
+
+<details ontoggle="message()">
+<summary id="print">Print Ticket</summary>
+<i id="show" style="color: white;">Print out an Eve Live Concert Ticket after filling up the following above and if you're ready, press Print.</i>
+<br><br>
+<form>
+	<img id="ticket" src="https://niewmedia.com/wp-content/uploads/2024/10/S__50561190-853x1280.jpg">
+	<br>
+	<button type="Submit" id="button" onclick="Print()">Print</button>
+	<br><hr>
+</form>
+</details>
+
+	<script>
+		function Print(){
+
+			window.alert("You're ticket has now been Printed, please go to the listed Venue on time. Enjoy the Concert!") + ("Please be reminded if you have not completed any one of the questions above, your ticket will be revoked immidietly!");
+		}
+	</script>
+</center>
+</body>
+</html>

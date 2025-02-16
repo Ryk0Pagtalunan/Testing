@@ -1,0 +1,69 @@
+body{
+	background-color: #d92323;
+	background-image: url(https://i.pinimg.com/originals/e2/bf/2d/e2bf2d0095a04d00696f7657d4214a85.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#title{
+	background-image: linear-gradient(black, red);
+	opacity: 0.9;
+	color: rgba(27, 42, 155, 0.8);
+}
+hr{
+	color: white;
+	width: 1000px;
+}
+details{
+	color: rgba(0, 0, 10, 0.8);
+	opacity: 0.9;
+}
+#info{
+	background-image: linear-gradient(red, midnightblue);
+	width: 825px;
+	opacity: 0.9;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+}
+#price{
+	background-image: linear-gradient(midnightblue, red);
+	width: 825px;
+	opacity: 0.9;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+}
+#print{
+	background-image: linear-gradient(red, midnightblue);
+	width: 825px;
+	opacity: 0.9;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+}
+label{
+	color: white;
+	opacity: 0.9;
+}
+input{
+	opacity: 0.7;
+	text-align: center;
+}
+#ticket{
+	width: 175px;
+	height: 300px;
+}
+#button{
+	opacity: 0.9;
+	background-image: linear-gradient(#490b63, red);
+	border: 0px;
+	width: 200px;
+}
+#infos{
+	background-image: linear-gradient(red, #490b63);
+	border: 0px;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+}
